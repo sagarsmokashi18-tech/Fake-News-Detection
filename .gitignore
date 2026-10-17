@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Large training datasets (~111 MB). Not required at runtime; the trained
+# model artifact is committed instead. See docs/DEPLOYMENT.md for retraining.
+Fake.csv
+True.csv
+
+# Local screenshots / temporary artifacts
+ui_*.png
+*.log
